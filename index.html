@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Space Museum landing page highlighting immersive exhibits, celestial archives, and private tours."
+    />
+    <title>Celestial Archive — Space Museum</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="cosmic-field" aria-hidden="true"></div>
+    <header class="site-header" id="home">
+      <div class="brand-mark">
+        <span class="brand-icon" aria-hidden="true">✷</span>
+        <div>
+          <p>Celestial Archive</p>
+          <small>Space Museum</small>
+        </div>
+      </div>
+      <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="primary-nav" aria-label="Primary">
+        <a href="#home">Home</a>
+        <a href="#exhibits">Exhibits</a>
+        <a href="#experiences">Experiences</a>
+        <a href="#timeline">Timeline</a>
+        <a href="#visit">Visit</a>
+      </nav>
+      <a class="btn btn-outline" href="#visit">Secure Your Visit</a>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero__content">
+          <p class="eyebrow">Galactic Heritage Program · 2042 Edition</p>
+          <h1 id="hero-title">
+            A future-forward space museum curating humanity's boldest cosmic artifacts.
+          </h1>
+          <p class="lede">
+            Wander through zero-gravity archives, decoded astronaut journals, and immersive lightfields
+            that reimagine every mission in tactile detail.
+          </p>
+          <div class="cta-group">
+            <a class="btn btn-solid" href="#visit">Book a Private Orbit Tour</a>
+            <button class="btn btn-ghost" type="button">Download Field Guide</button>
+          </div>
+          <dl class="metrics" aria-label="Key highlights">
+            <div>
+              <dt>118</dt>
+              <dd>Rare artifacts restored with nano-forensics</dd>
+            </div>
+            <div>
+              <dt>43%</dt>
+              <dd>Exhibits updated quarterly with fresh research</dd>
+            </div>
+            <div>
+              <dt>0.8g</dt>
+              <dd>Adjusted gravity chamber for EVA simulations</dd>
+            </div>
+          </dl>
+        </div>
+        <div class="hero__visual" aria-hidden="true">
+          <div class="orbit-card">
+            <p class="orbit-card__label">Live Trajectory</p>
+            <h2>Artemis III</h2>
+            <div class="orbit-stats">
+              <div>
+                <span>Apogee</span>
+                <strong>371,264 km</strong>
+              </div>
+              <div>
+                <span>Radiation Shielding</span>
+                <strong>99.2%</strong>
+              </div>
+            </div>
+            <div class="orbit-grid">
+              <div>
+                <span>Habitat Integrity</span>
+                <strong>Optimal</strong>
+              </div>
+              <div>
+                <span>Bio-Signals</span>
+                <strong>Stable</strong>
+              </div>
+              <div>
+                <span>Telemetry</span>
+                <strong>Sync'd</strong>
+              </div>
+            </div>
+          </div>
+          <div class="floating-badges">
+            <article>
+              <p>Immersion Deck</p>
+              <strong>Holo Archive v3</strong>
+              <span>Seamless multi-sensory storytelling</span>
+            </article>
+            <article>
+              <p>Lab Status</p>
+              <strong>Open Research</strong>
+              <span>Guests collaborate with archivists</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="exhibit-grid" id="exhibits" aria-labelledby="exhibit-title">
+        <div class="section-heading">
+          <p class="eyebrow">Immersive vaults</p>
+          <h2 id="exhibit-title">Curations engineered for touch, light, and sound.</h2>
+          <p>
+            Each gallery is choreographed with responsive light fields, tactile archival materials, and
+            biofeedback audio to translate deep-space narratives into human-scale experiences.
+          </p>
+        </div>
+        <div class="grid">
+          <article>
+            <h3>Solar Relic Lab</h3>
+            <p>Glass printed meteorites suspended in carbon-neutral plasma columns.</p>
+            <ul>
+              <li>Adaptive temperature envelopes</li>
+              <li>Augmented reality research notes</li>
+              <li>Holographic provenance timeline</li>
+            </ul>
+          </article>
+          <article>
+            <h3>Mission Control Redux</h3>
+            <p>Rebuilt consoles showing live NASA feeds alongside retro telemetry.</p>
+            <ul>
+              <li>Multi-user command line sandbox</li>
+              <li>Mission log dramatizations</li>
+              <li>AI docent overlays</li>
+            </ul>
+          </article>
+          <article>
+            <h3>Interstellar Garden</h3>
+            <p>Photosynthetic sculptures that react to visitor motion and tone.</p>
+            <ul>
+              <li>Chrono-sensitive flora</li>
+              <li>Immersive scent diffusion</li>
+              <li>Ambient storytelling pods</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="immersive" id="experiences" aria-labelledby="experience-title">
+        <div class="section-heading">
+          <p class="eyebrow">Experiential science</p>
+          <h2 id="experience-title">Programs that turn visitors into on-mission specialists.</h2>
+        </div>
+        <div class="experience-grid">
+          <article>
+            <div class="tag">Studio Residency</div>
+            <h3>Analog Astronaut Capsule</h3>
+            <p>
+              A 48-hour residency with biometrics, mindfulness coaching, and analog EVA challenges staged in
+              the museum's subterranean simulator.
+            </p>
+            <span>Application cycle: quarterly</span>
+          </article>
+          <article>
+            <div class="tag">Evening Program</div>
+            <h3>Radiant Night Walks</h3>
+            <p>
+              Curated stargazing from the kinetic rooftop, synced with live narration and drone projection
+              choreography across the skyline.
+            </p>
+            <span>Seats per session: 42</span>
+          </article>
+          <article>
+            <div class="tag">Youth Lab</div>
+            <h3>Zero-G Builders</h3>
+            <p>
+              Collaborative robotics lab where students engineer payloads and launch micro missions within a
+              vacuum stage.
+            </p>
+            <span>Age focus: 10–16</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="timeline" id="timeline" aria-labelledby="timeline-title">
+        <div class="section-heading">
+          <p class="eyebrow">Living history</p>
+          <h2 id="timeline-title">From first fragments to future habitats.</h2>
+        </div>
+        <ol class="timeline-list">
+          <li>
+            <div class="year">1969</div>
+            <div>
+              <h3>Lunar Imprint</h3>
+              <p>Original boot molds preserved with nano-carbon coating.</p>
+            </div>
+          </li>
+          <li>
+            <div class="year">1998</div>
+            <div>
+              <h3>ISS Habitat Diaries</h3>
+              <p>Digitized notebooks mapped into tangible light scrolls.</p>
+            </div>
+          </li>
+          <li>
+            <div class="year">2025</div>
+            <div>
+              <h3>Ocean-Mars Analog</h3>
+              <p>Mixed reality corridor blending underwater and Martian terrain scans.</p>
+            </div>
+          </li>
+          <li>
+            <div class="year">2036</div>
+            <div>
+              <h3>Lagrange Habitat Lab</h3>
+              <p>Interactive concept models of self-growing orbital cities.</p>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section class="visit" id="visit" aria-labelledby="visit-title">
+        <div class="visit-card">
+          <div>
+            <p class="eyebrow">Plan your encounter</p>
+            <h2 id="visit-title">Private tours, research hours, and immersive rentals.</h2>
+            <p>
+              Submit a preferred date and our archivists will orchestrate a precision-guided experience that
+              fits your research, celebration, or inspiration goals.
+            </p>
+          </div>
+          <form class="visit-form">
+            <label>
+              <span>Preferred date</span>
+              <input type="date" required />
+            </label>
+            <label>
+              <span>Group size</span>
+              <input type="number" min="1" max="50" value="4" />
+            </label>
+            <label>
+              <span>Focus area</span>
+              <select>
+                <option>Mission Control</option>
+                <option>Artifacts Lab</option>
+                <option>Immersion Deck</option>
+                <option>Research Residency</option>
+              </select>
+            </label>
+            <button class="btn btn-solid" type="submit">Submit request</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <p>Celestial Archive</p>
+        <span>Designed for seekers of the cosmic narrative.</span>
+      </div>
+      <div class="footer-links">
+        <a href="#">Accessibility</a>
+        <a href="#">Press</a>
+        <a href="#">Support</a>
+      </div>
+      <p class="copyright">© <span id="year"></span> Celestial Archive. All stellar rights reserved.</p>
+    </footer>
+
+    <script src="./script.js" defer></script>
+  </body>
+</html>
